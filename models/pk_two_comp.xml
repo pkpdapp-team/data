@@ -58,8 +58,6 @@
 <listOfCompartments>
 
 
-      <compartment id="IV" name="IV" spatialDimensions="3" size="1" constant="true">
-      </compartment>
       <compartment id="central" name="central" spatialDimensions="3" size="60" constant="true">
       </compartment>
       <compartment id="peripheral" name="peripheral" spatialDimensions="3" size="45" constant="true">
@@ -68,9 +66,6 @@
 </listOfCompartments>
 
 <listOfSpecies>
-
-<species id="Agi" name="Agi" compartment="IV" initialConcentration="20" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-</species>
 
 <species id="A1" name="A1" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
@@ -85,8 +80,6 @@
 
       <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hr">
       </parameter>
-      <parameter id="ka" name="ka" value="0.8" constant="true" units="per_hr">
-      </parameter>
       <parameter id="k12" name="k12" value="0.898" constant="true" units="per_hr">
       </parameter>
       <parameter id="k21" name="k21" value="0.634" constant="true" units="per_hr">
@@ -98,24 +91,6 @@
 
 
 <listOfReactions>
-
-      <reaction id="intravenous" name="intravenous" reversible="false">
-        <listOfReactants>
-          <speciesReference species="Agi" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="A1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-		<math xmlns="http://www.w3.org/1998/Math/MathML">
-			<apply>
-				<times/>
-				<ci>ka</ci>
-				<ci>Agi</ci>
-			</apply>
-		</math>
-	</kineticLaw>
-	</reaction>
 
       <reaction id="Central_to_Peripheral" name="Central_to_Peripheral" reversible="false">
         <listOfReactants>
