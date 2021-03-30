@@ -62,6 +62,10 @@
       </compartment>
       <compartment id="central" name="central" spatialDimensions="3" size="60" constant="true">
       </compartment>
+      <compartment id="peripheral" name="peripheral" spatialDimensions="3" size="45" constant="true">
+      </compartment>
+      <compartment id="peripheral2" name="peripheral2" spatialDimensions="3" size="45" constant="true">
+      </compartment>
 
 </listOfCompartments>
 
@@ -73,6 +77,12 @@
 <species id="A1" name="A1" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
+<species id="A2" name="A2" compartment="peripheral" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+</species>
+
+<species id="A3" name="A3" compartment="peripheral2" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+</species>
+
 </listOfSpecies>
 
 
@@ -81,6 +91,14 @@
       <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hr">
       </parameter>
       <parameter id="ka" name="ka" value="0.8" constant="true" units="per_hr">
+      </parameter>
+      <parameter id="k12" name="k12" value="0.898" constant="true" units="per_hr">
+      </parameter>
+      <parameter id="k21" name="k21" value="0.634" constant="true" units="per_hr">
+      </parameter>
+      <parameter id="k13" name="k13" value="0.358" constant="true" units="per_hr">
+      </parameter>
+      <parameter id="k31" name="k31" value="0.574" constant="true" units="per_hr">
       </parameter>
 
 </listOfParameters>
@@ -107,6 +125,42 @@
 	</kineticLaw>
 	</reaction>
 
+      <reaction id="Central_to_Peripheral" name="Central_to_Peripheral" reversible="false">
+        <listOfReactants>
+          <speciesReference species="A1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="A2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+		<math xmlns="http://www.w3.org/1998/Math/MathML">
+			<apply>
+				<times/>
+				<ci>k12</ci>
+				<ci>A1</ci>
+			</apply>
+		</math>
+	</kineticLaw>
+	</reaction>
+
+      <reaction id="Peripheral_to_Central" name="Peripheral_to_Central" reversible="false">
+        <listOfReactants>
+          <speciesReference species="A2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="A1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+		<math xmlns="http://www.w3.org/1998/Math/MathML">
+			<apply>
+				<times/>
+				<ci>k21</ci>
+				<ci>A2</ci>
+			</apply>
+		</math>
+	</kineticLaw>
+	</reaction>
+
       <reaction id="elimination" name="elimination" reversible="false">
         <listOfReactants>
           <speciesReference species="A1" constant="true"/>
@@ -121,6 +175,43 @@
 		</math>
 	</kineticLaw>
 	</reaction>
+
+      <reaction id="Central_to_Peripheral2" name="Central_to_Peripheral2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="A1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="A3" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+		<math xmlns="http://www.w3.org/1998/Math/MathML">
+			<apply>
+				<times/>
+				<ci>k13</ci>
+				<ci>A1</ci>
+			</apply>
+		</math>
+	</kineticLaw>
+	</reaction>
+
+      <reaction id="Peripheral2_to_Central" name="Peripheral2_to_Central" reversible="false">
+        <listOfReactants>
+          <speciesReference species="A3" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="A1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+		<math xmlns="http://www.w3.org/1998/Math/MathML">
+			<apply>
+				<times/>
+				<ci>k21</ci>
+				<ci>A3</ci>
+			</apply>
+		</math>
+	</kineticLaw>
+	</reaction>
+
 
 
 </listOfReactions>
