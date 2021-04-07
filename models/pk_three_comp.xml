@@ -113,6 +113,7 @@
 				<times/>
 				<ci>k12</ci>
 				<ci>A1</ci>
+        <ci>central</ci>
 			</apply>
 		</math>
 	</kineticLaw>
@@ -131,6 +132,7 @@
 				<times/>
 				<ci>k21</ci>
 				<ci>A2</ci>
+        <ci>peripheral</ci>
 			</apply>
 		</math>
 	</kineticLaw>
@@ -146,6 +148,7 @@
 				<times/>
 				<ci>k10</ci>
 				<ci>A1</ci>
+        <ci>central</ci>
 			</apply>
 		</math>
 	</kineticLaw>
@@ -164,6 +167,7 @@
 				<times/>
 				<ci>k13</ci>
 				<ci>A1</ci>
+        <ci>central</ci>
 			</apply>
 		</math>
 	</kineticLaw>
@@ -182,6 +186,7 @@
 				<times/>
 				<ci>k21</ci>
 				<ci>A3</ci>
+        <ci>peripheral2</ci>
 			</apply>
 		</math>
 	</kineticLaw>

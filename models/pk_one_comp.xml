@@ -25,9 +25,7 @@
       </unitDefinition>
       <unitDefinition id="substance" name="substance">
         <listOfUnits>
-
-		<unit kind="mole" exponent="1" scale="0" multiplier="1"/>
-
+		      <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
 
@@ -91,6 +89,7 @@
 				<times/>
 				<ci>k10</ci>
 				<ci>A1</ci>
+        <ci>central</ci>
 			</apply>
 		</math>
 	</kineticLaw>
