@@ -26,7 +26,7 @@
       <unitDefinition id="substance" name="substance">
         <listOfUnits>
 
-		<unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+    <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
 
         </listOfUnits>
       </unitDefinition>
@@ -38,9 +38,9 @@
 </unitDefinition>
 
 <unitDefinition id="volume" name="volume">
-	<listOfUnits>
-		<unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
-	</listOfUnits>
+  <listOfUnits>
+    <unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
+  </listOfUnits>
 </unitDefinition>
 
 <unitDefinition id="ng_per_mL">
@@ -108,16 +108,16 @@
           <speciesReference species="A2" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-		<math xmlns="http://www.w3.org/1998/Math/MathML">
-			<apply>
-				<times/>
-				<ci>k12</ci>
-				<ci>A1</ci>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <times/>
+        <ci>k12</ci>
+        <ci>A1</ci>
         <ci>central</ci>
-			</apply>
-		</math>
-	</kineticLaw>
-	</reaction>
+      </apply>
+    </math>
+  </kineticLaw>
+  </reaction>
 
       <reaction id="Peripheral_to_Central" name="Peripheral_to_Central" reversible="false">
         <listOfReactants>
@@ -127,32 +127,32 @@
           <speciesReference species="A1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-		<math xmlns="http://www.w3.org/1998/Math/MathML">
-			<apply>
-				<times/>
-				<ci>k21</ci>
-				<ci>A2</ci>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <times/>
+        <ci>k21</ci>
+        <ci>A2</ci>
         <ci>peripheral</ci>
-			</apply>
-		</math>
-	</kineticLaw>
-	</reaction>
+      </apply>
+    </math>
+  </kineticLaw>
+  </reaction>
 
       <reaction id="elimination" name="elimination" reversible="false">
         <listOfReactants>
           <speciesReference species="A1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
-		<math xmlns="http://www.w3.org/1998/Math/MathML">
-			<apply>
-				<times/>
-				<ci>k10</ci>
-				<ci>A1</ci>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <times/>
+        <ci>k10</ci>
+        <ci>A1</ci>
         <ci>central</ci>
-			</apply>
-		</math>
-	</kineticLaw>
-	</reaction>
+      </apply>
+    </math>
+  </kineticLaw>
+  </reaction>
 
       <reaction id="Central_to_Peripheral2" name="Central_to_Peripheral2" reversible="false">
         <listOfReactants>
@@ -162,16 +162,16 @@
           <speciesReference species="A3" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-		<math xmlns="http://www.w3.org/1998/Math/MathML">
-			<apply>
-				<times/>
-				<ci>k13</ci>
-				<ci>A1</ci>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <times/>
+        <ci>k13</ci>
+        <ci>A1</ci>
         <ci>central</ci>
-			</apply>
-		</math>
-	</kineticLaw>
-	</reaction>
+      </apply>
+    </math>
+  </kineticLaw>
+  </reaction>
 
       <reaction id="Peripheral2_to_Central" name="Peripheral2_to_Central" reversible="false">
         <listOfReactants>
@@ -181,16 +181,16 @@
           <speciesReference species="A1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-		<math xmlns="http://www.w3.org/1998/Math/MathML">
-			<apply>
-				<times/>
-				<ci>k21</ci>
-				<ci>A3</ci>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <times/>
+        <ci>k21</ci>
+        <ci>A3</ci>
         <ci>peripheral2</ci>
-			</apply>
-		</math>
-	</kineticLaw>
-	</reaction>
+      </apply>
+    </math>
+  </kineticLaw>
+  </reaction>
 
 
 

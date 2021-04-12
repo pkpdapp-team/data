@@ -25,7 +25,7 @@
       </unitDefinition>
       <unitDefinition id="substance" name="substance">
         <listOfUnits>
-		      <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
 
@@ -36,9 +36,9 @@
 </unitDefinition>
 
 <unitDefinition id="volume" name="volume">
-	<listOfUnits>
-		<unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
-	</listOfUnits>
+  <listOfUnits>
+    <unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
+  </listOfUnits>
 </unitDefinition>
 
 <unitDefinition id="ng_per_mL">
@@ -84,16 +84,16 @@
           <speciesReference species="A1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
-		<math xmlns="http://www.w3.org/1998/Math/MathML">
-			<apply>
-				<times/>
-				<ci>k10</ci>
-				<ci>A1</ci>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <times/>
+        <ci>k10</ci>
+        <ci>A1</ci>
         <ci>central</ci>
-			</apply>
-		</math>
-	</kineticLaw>
-	</reaction>
+      </apply>
+    </math>
+  </kineticLaw>
+  </reaction>
 
 
 </listOfReactions>
