@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="myelotoxicity_friberg_model_PD" timeUnits="hour">
+    <listOfUnitDefinitions>
+      <unitDefinition id="hour">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_hour">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_litre">
+        <listOfUnits>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_micro_molar">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="-6" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="micro_mole">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-6" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="micro_mole_per_litre">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-6" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfParameters>
+      <parameter id="circ_0" value="1" constant="true" units="per_litre"/>
+      <parameter id="MTT" value="5" constant="true" units="hour"/>
+      <parameter id="gamma" value="1" constant="true" units="dimensionless"/>
+      <parameter id="slope" value="0.1" constant="true" units="per_micro_molar"/>
+      <parameter id="clearance" value="1" constant="true" units="per_hour"/>
+      <parameter id="dosing" value="0" constant="true" units="mg"/>
+      <parameter id="E_drug" value="0" constant="false" units="dimensionless"/>
+      <parameter id="drug_amount" value="0" units="micro_mole" constant="false"/>
+      <parameter id="drug_conc" value="0" units="micro_mole_per_litre" constant="false"/>
+      <parameter id="central_vol" value="1" units="litre" constant="true"/>
+      <parameter id="prol" value="1" units="per_litre" constant="false"/>
+      <parameter id="T1" value="1" units="per_litre" constant="false"/>
+      <parameter id="T2" value="1" units="per_litre" constant="false"/>
+      <parameter id="T3" value="1" units="per_litre" constant="false"/>
+      <parameter id="circ" value="1" units="per_litre" constant="false"/>
+    </listOfParameters>
+    <listOfRules>
+      <rateRule variable="drug_amount">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> dosing </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> clearance </ci>
+                <ci> drug_amount </ci>
+              </apply>
+              <ci> central_vol </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <assignmentRule variable="drug_conc">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> drug_amount </ci>
+            <ci> central_vol </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="E_drug">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> slope </ci>
+            <ci> drug_conc </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <rateRule variable="prol">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn> 4 </cn>
+                <ci> MTT </ci>
+              </apply>
+              <ci> prol </ci>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+                <ci> E_drug </ci>
+              </apply>
+              <apply>
+              <power/>
+                <apply>
+                  <divide/>
+                  <ci> circ_0 </ci>
+                  <ci> circ</ci>
+                </apply>
+                <ci> gamma </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn> 4 </cn>
+                <ci> MTT </ci>
+              </apply>
+              <ci> prol </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="T1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <minus/>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> prol </ci>
+          </apply>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> T1 </ci>
+          </apply>
+        </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="T2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <minus/>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> T1 </ci>
+          </apply>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> T2 </ci>
+          </apply>
+        </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="T3">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <minus/>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> T2 </ci>
+          </apply>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> T3 </ci>
+          </apply>
+        </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="circ">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <minus/>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> T3 </ci>
+          </apply>
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn> 4 </cn>
+              <ci> MTT </ci>
+            </apply>
+            <ci> circ </ci>
+          </apply>
+        </apply>
+        </math>
+      </rateRule>
+    </listOfRules>
+  </model>
+</sbml>
