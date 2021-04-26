@@ -45,51 +45,48 @@
       <parameter id="MTT" value="5" constant="true" units="hour"/>
       <parameter id="gamma" value="1" constant="true" units="dimensionless"/>
       <parameter id="slope" value="0.1" constant="true" units="per_micro_molar"/>
-      <parameter id="clearance" value="1" constant="true" units="per_hour"/>
-      <parameter id="dosing" value="0" constant="true" units="mg"/>
       <parameter id="E_drug" value="0" constant="false" units="dimensionless"/>
-      <parameter id="drug_amount" value="0" units="micro_mole" constant="false"/>
-      <parameter id="drug_conc" value="0" units="micro_mole_per_litre" constant="false"/>
-      <parameter id="central_vol" value="1" units="litre" constant="true"/>
       <parameter id="prol" value="1" units="per_litre" constant="false"/>
       <parameter id="T1" value="1" units="per_litre" constant="false"/>
       <parameter id="T2" value="1" units="per_litre" constant="false"/>
       <parameter id="T3" value="1" units="per_litre" constant="false"/>
       <parameter id="circ" value="1" units="per_litre" constant="false"/>
+      <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hour"/>
     </listOfParameters>
+    
+    <listOfCompartments>
+      <compartment id="central" name="central" spatialDimensions="3" size="60" constant="true">
+      </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+    <species id="A1" name="A1" compartment="central" initialConcentration="0" substanceUnits="micro_mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+    </species>
+    </listOfSpecies>
+    <listOfReactions>
+          <reaction id="elimination" name="elimination" reversible="false">
+            <listOfReactants>
+              <speciesReference species="A1" constant="true"/>
+            </listOfReactants>
+            <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci>k10</ci>
+            <ci>A1</ci>
+            <ci>central</ci>
+          </apply>
+        </math>
+      </kineticLaw>
+      </reaction>
+    </listOfReactions>
+
     <listOfRules>
-      <rateRule variable="drug_amount">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <minus/>
-            <ci> dosing </ci>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> clearance </ci>
-                <ci> drug_amount </ci>
-              </apply>
-              <ci> central_vol </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <assignmentRule variable="drug_conc">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <divide/>
-            <ci> drug_amount </ci>
-            <ci> central_vol </ci>
-          </apply>
-        </math>
-      </assignmentRule>
       <assignmentRule variable="E_drug">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <times/>
             <ci> slope </ci>
-            <ci> drug_conc </ci>
+            <ci> A1 </ci>
           </apply>
         </math>
       </assignmentRule>
