@@ -26,7 +26,7 @@
       <unitDefinition id="substance" name="substance">
         <listOfUnits>
 
-    <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+		<unit kind="mole" exponent="1" scale="0" multiplier="1"/>
 
         </listOfUnits>
       </unitDefinition>
@@ -38,9 +38,9 @@
 </unitDefinition>
 
 <unitDefinition id="volume" name="volume">
-  <listOfUnits>
-    <unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
-  </listOfUnits>
+	<listOfUnits>
+		<unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
+	</listOfUnits>
 </unitDefinition>
 
 <unitDefinition id="ng_per_mL">
@@ -50,34 +50,29 @@
  </listOfUnits>
  </unitDefinition>
 
+<unitDefinition id="ng">
+<listOfUnits>
+<unit kind="gram" exponent="1" scale="-9" multiplier="1"/>
+ </listOfUnits>
+ </unitDefinition>
+
 </listOfUnitDefinitions>
-
-
-
-
-<listOfCompartments>
-
-
-      <compartment id="central" name="central" spatialDimensions="3" size="60" constant="true">
-      </compartment>
-      <compartment id="peripheral" name="peripheral" spatialDimensions="3" size="45" constant="true">
-      </compartment>
-
-</listOfCompartments>
-
-<listOfSpecies>
-
-<species id="A1" name="A1" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-</species>
-
-<species id="A2" name="A2" compartment="peripheral" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-</species>
-
-</listOfSpecies>
 
 
 <listOfParameters>
 
+      <parameter id="V1" name="V1" value="60" constant="true" units="volume">
+      </parameter>
+      <parameter id="V2" name="V2" value="45" constant="true" units="volume">
+      </parameter>
+      <parameter id="A1" name="A1" value="0" constant="false" units="ng">
+      </parameter>
+      <parameter id="A2" name="A2" value="0" constant="false" units="ng">
+      </parameter>
+      <parameter id="C1" name="C1" constant="false" units="ng_per_mL">
+      </parameter>
+      <parameter id="C2" name="C2" constant="false" units="ng_per_mL">
+      </parameter>
       <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hr">
       </parameter>
       <parameter id="k12" name="k12" value="0.898" constant="true" units="per_hr">
@@ -85,69 +80,82 @@
       <parameter id="k21" name="k21" value="0.634" constant="true" units="per_hr">
       </parameter>
 
-
 </listOfParameters>
 
 
+<listOfRules>
 
-<listOfReactions>
+	<rateRule metaid="A1" variable="A1">
+		<math xmlns="http://www.w3.org/1998/Math/MathML">  
+			<apply>
+				<minus/>
+				<apply>
+					<times/>
+					<ci>k21</ci>
+					<ci>A2</ci>
+				</apply>
+				<apply>
+					<plus/>
+					<apply>
+						<times/>
+						<ci>k10</ci>
+						<ci>A1</ci>
+					</apply>
+					<apply>
+						<times/>
+						<ci>k12</ci>
+						<ci>A1</ci>
+					</apply>
+				</apply>
+			</apply>
+		</math>
+	</rateRule>	
 
-      <reaction id="Central_to_Peripheral" name="Central_to_Peripheral" reversible="false">
-        <listOfReactants>
-          <speciesReference species="A1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="A2" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-    <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <apply>
-        <times/>
-        <ci>k12</ci>
-        <ci>A1</ci>
-        <ci>central</ci>
-      </apply>
-    </math>
-  </kineticLaw>
-  </reaction>
+	<rateRule metaid="A2" variable="A2">
+		<math xmlns="http://www.w3.org/1998/Math/MathML">  
+			<apply>
+				<minus/>
+				<apply>
+					<times/>
+					<ci>k12</ci>
+					<ci>A1</ci>
+				</apply>
+				<apply>
+					<times/>
+					<ci>k21</ci>
+					<ci>A2</ci>
+				</apply>
+			</apply>
+		</math>
+	</rateRule>
 
-      <reaction id="Peripheral_to_Central" name="Peripheral_to_Central" reversible="false">
-        <listOfReactants>
-          <speciesReference species="A2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="A1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-    <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <apply>
-        <times/>
-        <ci>k21</ci>
-        <ci>A2</ci>
-        <ci>peripheral</ci>
-      </apply>
-    </math>
-  </kineticLaw>
-  </reaction>
-
-      <reaction id="elimination" name="elimination" reversible="false">
-        <listOfReactants>
-          <speciesReference species="A1" constant="true"/>
-        </listOfReactants>
-        <kineticLaw>
-    <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <apply>
-        <times/>
-        <ci>k10</ci>
-        <ci>A1</ci>
-        <ci>central</ci>
-      </apply>
-    </math>
-  </kineticLaw>
-  </reaction>
+	<assignmentRule metaid="C1" variable="C1">
+		<math xmlns="http://www.w3.org/1998/Math/MathML">  
+			<apply>
+				<divide/>
+				<ci>A1</ci>
+				<ci>V1</ci>
+			</apply>
+		</math>
+	</assignmentRule>
 
 
-</listOfReactions>
+	<assignmentRule metaid="C2" variable="C2">
+		<math xmlns="http://www.w3.org/1998/Math/MathML">  
+			<apply>
+				<divide/>
+				<ci>A2</ci>
+				<ci>V2</ci>
+			</apply>
+		</math>
+	</assignmentRule>
+
+
+</listOfRules>
+
+
+
+
 
 </model>
 </sbml>
