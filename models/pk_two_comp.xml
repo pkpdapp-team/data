@@ -26,7 +26,7 @@
       <unitDefinition id="substance" name="substance">
         <listOfUnits>
 
-    <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+    <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
 
         </listOfUnits>
       </unitDefinition>
