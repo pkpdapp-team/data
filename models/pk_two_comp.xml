@@ -15,44 +15,26 @@
       </unitDefinition>
       <unitDefinition id="time" name="time">
         <listOfUnits>
-          <unit kind="second" exponent="1" scale="0" multiplier="1"/>
-        </listOfUnits>
-      </unitDefinition>
-      <unitDefinition id="hour" name="hour">
-        <listOfUnits>
           <unit kind="second" exponent="1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="substance" name="substance">
         <listOfUnits>
-
-    <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
-
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_hr">
+      <listOfUnits>
+       <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+       </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume" name="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
 
-<unitDefinition id="per_hr">
-<listOfUnits>
- <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
- </listOfUnits>
-</unitDefinition>
-
-<unitDefinition id="volume" name="volume">
-  <listOfUnits>
-    <unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
-  </listOfUnits>
-</unitDefinition>
-
-<unitDefinition id="ng_per_mL">
-<listOfUnits>
-<unit kind="gram" exponent="1" scale="-9" multiplier="1"/>
-<unit kind="litre" exponent="-1" scale="-3" multiplier="1"/>
- </listOfUnits>
- </unitDefinition>
-
 </listOfUnitDefinitions>
-
-
 
 
 <listOfCompartments>
