@@ -12,10 +12,10 @@
           <unit kind="second" exponent="1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="ug_per_ml">
+      <unitDefinition id="mg_per_kg">
         <listOfUnits>
-          <unit kind="gram" exponent="1" scale="-6" multiplier="1"/>
-          <unit kind="litre" exponent="-1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="ml_per_h_ug">
@@ -30,14 +30,14 @@
       <parameter id="KNetgrowth" value="2.3" constant="false" units="per_hour"/>
       <parameter id="tvbmax" value="1e9" constant="true" units="dimensionless"/>
       <parameter id="Kmax" value="3.2" constant="false" units="per_hour"/>
-      <parameter id="EC50k" value="0.5" constant="false" units="ug_per_ml"/>
+      <parameter id="EC50k" value="0.5" constant="false" units="mg_per_kg"/>
       <parameter id="gamma" value="3.8" constant="false" units="dimensionless"/>
       <parameter id="beta" value="44" constant="false" units="dimensionless"/>
       <parameter id="tau" value="0.002" constant="false" units="ml_per_h_ug"/>
       <parameter id="alpha" value="3.1" constant="false" units="per_hour"/>
       <parameter id="Kdeath" value="0.3" constant="false" units="per_hour"/>
       <parameter id="Ksr_max" value="2.8" constant="false" units="per_hour"/>
-      <parameter id="Drug_concentration" value="1" constant="true" units="dimensionless"/>
+      <parameter id="Drug_concentration" value="1" constant="false" units="mg_per_kg"/>
     </listOfParameters>
     <listOfCompartments>
       <compartment constant="false" id="P1" size="1" units="dimensionless"/>
