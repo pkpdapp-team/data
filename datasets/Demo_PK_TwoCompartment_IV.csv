@@ -1,4 +1,4 @@
-Time,TIME_UNIT,dv,Unit,Dose,DOSEUNIT,ID,YDESC
+Time,TIME_UNIT,dv,Unit,Dose,DOSEUNIT,ID,YNAME
 0.001,hours,133311,ng/mL,2,mg/kg,1,Plasma Concentration
 2.66756,hours,57469.8,ng/mL,2,mg/kg,1,Plasma Concentration
 5.33411,hours,28342,ng/mL,2,mg/kg,1,Plasma Concentration
