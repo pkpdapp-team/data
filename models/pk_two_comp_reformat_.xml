@@ -61,23 +61,26 @@
 
 <listOfParameters>
 
-      <parameter id="V1" name="V1" value="60" constant="true" units="volume">
+      <parameter id="V1" name="Volume central compartment" value="60" constant="true" units="volume">
       </parameter>
-      <parameter id="V2" name="V2" value="45" constant="true" units="volume">
+      <parameter id="V2" name="Volume compartment 2" value="45" constant="true" units="volume">
       </parameter>
-      <parameter id="A1" name="A1" value="0" constant="false" units="ng">
+
+      <parameter id="A1" name="Amount central compartment" value="0" constant="false" units="ng">
       </parameter>
-      <parameter id="A2" name="A2" value="0" constant="false" units="ng">
+      <parameter id="A2" name="Amount compartment 2" value="0" constant="false" units="ng">
       </parameter>
-      <parameter id="C1" name="C1" constant="false" units="ng_per_mL">
+
+      <parameter id="C1" name="Concentration central compartment" constant="false" units="ng_per_mL">
       </parameter>
-      <parameter id="C2" name="C2" constant="false" units="ng_per_mL">
+      <parameter id="C2" name="Concentration compartment 2" constant="false" units="ng_per_mL">
       </parameter>
-      <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hr">
+
+      <parameter id="k10" name="Elimination rate (1st order)" value="0.555" constant="true" units="per_hr">
       </parameter>
-      <parameter id="k12" name="k12" value="0.898" constant="true" units="per_hr">
+      <parameter id="k12" name="Transfer from central to 2" value="0.898" constant="true" units="per_hr">
       </parameter>
-      <parameter id="k21" name="k21" value="0.634" constant="true" units="per_hr">
+      <parameter id="k21" name="Transfer from 2nd to central" value="0.634" constant="true" units="per_hr">
       </parameter>
 
 </listOfParameters>
