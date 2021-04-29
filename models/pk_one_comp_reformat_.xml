@@ -61,13 +61,13 @@
 
 <listOfParameters>
 
-      <parameter id="V1" name="V1" value="60" constant="true" units="volume">
+      <parameter id="V1" name="Volume central compartment" value="60" constant="true" units="volume">
       </parameter>
-      <parameter id="A1" name="A1" value="0" constant="false" units="ng">
+      <parameter id="A1" name="Amount central compartment" value="0" constant="false" units="ng">
       </parameter>
-      <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hr">
+      <parameter id="k10" name="Elimination rate (1st order)" value="0.555" constant="true" units="per_hr">
       </parameter>
-      <parameter id="C1" name="C1" constant="false" units="ng_per_mL">
+      <parameter id="C1" name="Concentration central compartment" constant="false" units="ng_per_mL">
       </parameter>
 
 </listOfParameters>
