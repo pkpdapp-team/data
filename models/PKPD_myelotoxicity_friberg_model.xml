@@ -17,66 +17,53 @@
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="per_micro_molar">
-        <listOfUnits>
-          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
-          <unit kind="mole" exponent="-1" scale="-6" multiplier="1"/>
-        </listOfUnits>
-      </unitDefinition>
-      <unitDefinition id="micro_mole">
-        <listOfUnits>
-          <unit kind="mole" exponent="1" scale="-6" multiplier="1"/>
-        </listOfUnits>
-      </unitDefinition>
-      <unitDefinition id="micro_mole_per_litre">
-        <listOfUnits>
-          <unit kind="mole" exponent="1" scale="-6" multiplier="1"/>
-          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
-        </listOfUnits>
-      </unitDefinition>
       <unitDefinition id="mg">
         <listOfUnits>
           <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="litre_per_mg">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="-3" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
     </listOfUnitDefinitions>
     <listOfParameters>
-      <parameter id="circ_0" value="1" constant="true" units="per_litre"/>
-      <parameter id="MTT" value="5" constant="true" units="hour"/>
-      <parameter id="gamma" value="1" constant="true" units="dimensionless"/>
-      <parameter id="slope" value="0.1" constant="true" units="per_micro_molar"/>
+      <parameter id="circ_0" value="40" constant="true" units="per_litre"/>
+      <parameter id="MTT" value="125" constant="true" units="hour"/>
+      <parameter id="gamma" value="0.1" constant="true" units="dimensionless"/>
+      <parameter id="slope" value="0.1" constant="true" units="litre_per_mg"/>
       <parameter id="E_drug" value="0" constant="false" units="dimensionless"/>
-      <parameter id="prol" value="1" units="per_litre" constant="false"/>
-      <parameter id="T1" value="1" units="per_litre" constant="false"/>
-      <parameter id="T2" value="1" units="per_litre" constant="false"/>
-      <parameter id="T3" value="1" units="per_litre" constant="false"/>
-      <parameter id="circ" value="1" units="per_litre" constant="false"/>
+      <parameter id="prol" value="40" units="per_litre" constant="false"/>
+      <parameter id="T1" value="40" units="per_litre" constant="false"/>
+      <parameter id="T2" value="40" units="per_litre" constant="false"/>
+      <parameter id="T3" value="40" units="per_litre" constant="false"/>
+      <parameter id="circ" value="40" units="per_litre" constant="false"/>
       <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hour"/>
     </listOfParameters>
     
     <listOfCompartments>
-      <compartment id="central" name="central" spatialDimensions="3" size="60" constant="true">
-      </compartment>
+      <compartment id="central" name="central" spatialDimensions="3" size="0.2" constant="true" units="litre"/>
     </listOfCompartments>
     <listOfSpecies>
-    <species id="A1" name="A1" compartment="central" initialConcentration="0" substanceUnits="micro_mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-    </species>
+      <species id="A1" name="A1" compartment="central" initialConcentration="1" substanceUnits="mg" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfReactions>
-          <reaction id="elimination" name="elimination" reversible="false">
-            <listOfReactants>
-              <speciesReference species="A1" constant="true"/>
-            </listOfReactants>
-            <kineticLaw>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <times/>
-            <ci>k10</ci>
-            <ci>A1</ci>
-            <ci>central</ci>
-          </apply>
-        </math>
-      </kineticLaw>
+      <reaction id="elimination" name="elimination" reversible="false">
+        <listOfReactants>
+          <speciesReference species="A1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci>k10</ci>
+              <ci>A1</ci>
+              <ci>central</ci>
+            </apply>
+          </math>
+        </kineticLaw>
       </reaction>
     </listOfReactions>
 
