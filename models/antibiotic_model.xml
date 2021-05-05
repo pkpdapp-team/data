@@ -89,6 +89,7 @@
               <apply>
                 <times/>
                 <ci> Kmax </ci>
+                <ci> P1 </ci>
                 <apply>
                   <minus/>
                   <cn> 1 </cn>
@@ -98,7 +99,7 @@
                       <times/>
                       <apply>
                         <minus/>
-                        <cn> 0 </cn>
+                        <cn> t </cn>
                       </apply>  
                       <ci> alpha </ci>
                     </apply>
@@ -112,7 +113,6 @@
               </apply>
               <apply>
                 <times/>
-                <ci> P1 </ci>
                 <apply>
                   <plus/>
                   <apply>
@@ -138,7 +138,7 @@
                                         <ci> Drug_concentration </ci>
                                       </apply>
                                       <ci> tau </ci>
-                                      <cn> 0 </cn>
+                                      <cn> t </cn>
                                     </apply>
                                 </apply>    
                               </apply>
@@ -185,6 +185,11 @@
               <ci> P2 </ci>
             </apply>
           </apply>
+        </math>  
+      </rateRule>
+            <rateRule variable = "t">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" >
+            <cn> 1 </cn>
         </math>  
       </rateRule>
       <assignmentRule variable = "Ptotal">
