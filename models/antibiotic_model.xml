@@ -30,7 +30,7 @@
       <parameter id="KNetgrowth" value="2.3" constant="false" units="per_hour"/>
       <parameter id="tvbmax" value="1e9" constant="true" units="dimensionless"/>
       <parameter id="Kmax" value="3.2" constant="false" units="per_hour"/>
-      <parameter id="EC50k" value="3" constant="false" units="mg_per_kg"/>
+      <parameter id="EC50k" value="0.5" constant="false" units="mg_per_kg"/>
       <parameter id="gamma" value="3.8" constant="false" units="dimensionless"/>
       <parameter id="beta" value="44" constant="false" units="dimensionless"/>
       <parameter id="tau" value="0.002" constant="false" units="ml_per_h_ug"/>
