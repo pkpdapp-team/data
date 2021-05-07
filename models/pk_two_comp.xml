@@ -49,10 +49,10 @@
 
 <listOfSpecies>
 
-<species id="Amount_central" name="Amount_central" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="Amount_central" name="Amount_central" compartment="central" initialConcentration="1e-6" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
-<species id="Amount_compartment_2" name="Amount_compartment_2" compartment="peripheral" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="Amount_compartment_2" name="Amount_compartment_2" compartment="peripheral" initialConcentration="1e-6" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
 </listOfSpecies>
