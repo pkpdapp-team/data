@@ -45,7 +45,7 @@
 
 <listOfSpecies>
 
-<species id="Amount_1" name="Amount_1" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="Amount_1" name="Amount_1" compartment="central" initialConcentration="1e-6" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
 </listOfSpecies>
