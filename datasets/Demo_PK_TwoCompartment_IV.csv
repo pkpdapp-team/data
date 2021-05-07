@@ -1,11 +1,11 @@
-Time,TIME_UNIT,dv,Unit,Dose,DOSEUNIT,ID,YNAME
-0.001,hours,133311,ng/mL,2,mg/kg,1,Plasma Concentration
-2.66756,hours,57469.8,ng/mL,2,mg/kg,1,Plasma Concentration
-5.33411,hours,28342,ng/mL,2,mg/kg,1,Plasma Concentration
-8.00067,hours,16736.1,ng/mL,2,mg/kg,1,Plasma Concentration
-10.6672,hours,11737.1,ng/mL,2,mg/kg,1,Plasma Concentration
-13.3338,hours,9277.91,ng/mL,2,mg/kg,1,Plasma Concentration
-16.0003,hours,7827.06,ng/mL,2,mg/kg,1,Plasma Concentration
-18.6669,hours,6810.55,ng/mL,2,mg/kg,1,Plasma Concentration
-21.3334,hours,6007.98,ng/mL,2,mg/kg,1,Plasma Concentration
-24,hours,5331.19,ng/mL,2,mg/kg,1,Plasma Concentration
+TIME,TIME_UNIT,DV,UNIT,DOSE_GROUP,DOSEUNIT,ID,YDESC,COMPOUND,YTYPE,AMT,STUDYID,mdv,SUBJECT_GROUP
+0.001,h,133311,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+2.66756,h,57469.8,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+5.33411,h,28342,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+8.00067,h,16736.1,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+10.6672,h,11737.1,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+13.3338,h,9277.91,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+16.0003,h,7827.06,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+18.6669,h,6810.55,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+21.3334,h,6007.98,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
+24,h,5331.19,ng/mL,2,mg/kg,1,Plasma Concentration,.,.,2,.,0,.
