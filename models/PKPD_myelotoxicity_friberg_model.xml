@@ -12,6 +12,12 @@
           <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1e-3"/>
+        </listOfUnits>
+      </unitDefinition>
+
       <unitDefinition id="per_litre">
         <listOfUnits>
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
@@ -27,9 +33,9 @@
           <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="litre_per_mg">
+      <unitDefinition id="millilitre_per_mg">
         <listOfUnits>
-          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1e-3"/>
           <unit kind="gram" exponent="-1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
@@ -38,7 +44,7 @@
       <parameter id="circ_0" value="987" constant="true" units="per_mL"/>
       <parameter id="MTT" value="84.3" constant="true" units="hour"/>
       <parameter id="gamma" value="0.414" constant="true" units="dimensionless"/>
-      <parameter id="slope" value="0.0837" constant="true" units="litre_per_mg"/>
+      <parameter id="slope" value="0.0837" constant="true" units="millilitre_per_mg"/>
       <parameter id="E_drug" value="0" constant="false" units="dimensionless"/>
       <parameter id="prol" value="987" units="per_mL" constant="false"/>
       <parameter id="T1" value="987" units="per_mL" constant="false"/>
