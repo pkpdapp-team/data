@@ -51,13 +51,13 @@
 
 <listOfSpecies>
 
-<species id="A1" name="A1" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="Amount_central" name="Amount_central" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
-<species id="A2" name="A2" compartment="peripheral" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="Amount_compartment_2" name="Amount_compartment_2" compartment="peripheral" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
-<species id="A3" name="A3" compartment="peripheral2" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="Amount_compartment_3" name="Amount_compartment_3" compartment="peripheral2" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
 </listOfSpecies>
@@ -65,15 +65,15 @@
 
 <listOfParameters>
 
-      <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hr">
+      <parameter id="Elim_rate_order_1" name="Elim_rate_order_1" value="0.555" constant="true" units="per_hr">
       </parameter>
-      <parameter id="k12" name="k12" value="0.898" constant="true" units="per_hr">
+      <parameter id="Transfer_1_to_2" name="Transfer_1_to_2" value="0.898" constant="true" units="per_hr">
       </parameter>
-      <parameter id="k21" name="k21" value="0.634" constant="true" units="per_hr">
+      <parameter id="Transfer_2_to_1" name="Transfer_2_to_1" value="0.634" constant="true" units="per_hr">
       </parameter>
-      <parameter id="k13" name="k13" value="0.358" constant="true" units="per_hr">
+      <parameter id="Transfer_1_to_3" name="Transfer_1_to_3" value="0.358" constant="true" units="per_hr">
       </parameter>
-      <parameter id="k31" name="k31" value="0.574" constant="true" units="per_hr">
+      <parameter id="Transfer_3_to_1" name="Transfer_3_to_1" value="0.574" constant="true" units="per_hr">
       </parameter>
 
 </listOfParameters>
@@ -84,17 +84,17 @@
 
       <reaction id="Central_to_Peripheral" name="Central_to_Peripheral" reversible="false">
         <listOfReactants>
-          <speciesReference species="A1" constant="true"/>
+          <speciesReference species="Amount_central" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="A2" constant="true"/>
+          <speciesReference species="Amount_compartment_2" constant="true"/>
         </listOfProducts>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>k12</ci>
-        <ci>A1</ci>
+        <ci>Transfer_1_to_2</ci>
+        <ci>Amount_central</ci>
         <ci>central</ci>
       </apply>
     </math>
@@ -103,17 +103,17 @@
 
       <reaction id="Peripheral_to_Central" name="Peripheral_to_Central" reversible="false">
         <listOfReactants>
-          <speciesReference species="A2" constant="true"/>
+          <speciesReference species="Amount_compartment_2" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="A1" constant="true"/>
+          <speciesReference species="Amount_central" constant="true"/>
         </listOfProducts>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>k21</ci>
-        <ci>A2</ci>
+        <ci>Transfer_2_to_1</ci>
+        <ci>Amount_compartment_2</ci>
         <ci>peripheral</ci>
       </apply>
     </math>
@@ -122,14 +122,14 @@
 
       <reaction id="elimination" name="elimination" reversible="false">
         <listOfReactants>
-          <speciesReference species="A1" constant="true"/>
+          <speciesReference species="Amount_central" constant="true"/>
         </listOfReactants>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>k10</ci>
-        <ci>A1</ci>
+        <ci>Elim_rate_order_1</ci>
+        <ci>Amount_central</ci>
         <ci>central</ci>
       </apply>
     </math>
@@ -138,17 +138,17 @@
 
       <reaction id="Central_to_Peripheral2" name="Central_to_Peripheral2" reversible="false">
         <listOfReactants>
-          <speciesReference species="A1" constant="true"/>
+          <speciesReference species="Amount_central" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="A3" constant="true"/>
+          <speciesReference species="Amount_compartment_3" constant="true"/>
         </listOfProducts>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>k13</ci>
-        <ci>A1</ci>
+        <ci>Transfer_1_to_3</ci>
+        <ci>Amount_central</ci>
         <ci>central</ci>
       </apply>
     </math>
@@ -157,17 +157,17 @@
 
       <reaction id="Peripheral2_to_Central" name="Peripheral2_to_Central" reversible="false">
         <listOfReactants>
-          <speciesReference species="A3" constant="true"/>
+          <speciesReference species="Amount_compartment_3" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="A1" constant="true"/>
+          <speciesReference species="Amount_central" constant="true"/>
         </listOfProducts>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>k21</ci>
-        <ci>A3</ci>
+        <ci>Transfer_2_to_1</ci>
+        <ci>Amount_compartment_3</ci>
         <ci>peripheral2</ci>
       </apply>
     </math>
