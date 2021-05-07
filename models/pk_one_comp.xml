@@ -45,7 +45,7 @@
 
 <listOfSpecies>
 
-<species id="A1" name="A1" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="Amount_1" name="Amount_1" compartment="central" initialConcentration="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
 </listOfSpecies>
@@ -53,7 +53,7 @@
 
 <listOfParameters>
 
-      <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hr">
+      <parameter id="Elim_rate_1_order" name="Elim_rate_1_order" value="0.555" constant="true" units="per_hr">
       </parameter>
 
 </listOfParameters>
@@ -63,14 +63,14 @@
 
       <reaction id="elimination" name="elimination" reversible="false">
         <listOfReactants>
-          <speciesReference species="A1" constant="true"/>
+          <speciesReference species="Amount_1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>k10</ci>
-        <ci>A1</ci>
+        <ci>Elim_rate_1_order</ci>
+        <ci>Amount_1</ci>
         <ci>central</ci>
       </apply>
     </math>
