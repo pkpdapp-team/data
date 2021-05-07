@@ -49,10 +49,10 @@
 
 <listOfSpecies>
 
-<species id="Amount_central" name="Amount_central" compartment="central" initialConcentration="1e-6" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="drug_c" name="drug_c" compartment="central" initialConcentration="1e-6" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
-<species id="Amount_compartment_2" name="Amount_compartment_2" compartment="peripheral" initialConcentration="1e-6" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+<species id="drug_p" name="drug_p" compartment="peripheral" initialConcentration="1e-6" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
 </species>
 
 </listOfSpecies>
@@ -60,11 +60,11 @@
 
 <listOfParameters>
 
-      <parameter id="Elim_rate_order_1" name="Elim_rate_order_1" value="0.555" constant="true" units="per_hr">
+      <parameter id="elimination_rate" name="elimination_rate" value="0.555" constant="true" units="per_hr">
       </parameter>
-      <parameter id="Transfer_1_to_2" name="Transfer_1_to_2" value="0.898" constant="true" units="per_hr">
+      <parameter id="transfer_1_to_2" name="transfer_1_to_2" value="0.898" constant="true" units="per_hr">
       </parameter>
-      <parameter id="Transfer_2_to_1" name="Transfer_2_to_1" value="0.634" constant="true" units="per_hr">
+      <parameter id="transfer_2_to_1" name="transfer_2_to_1" value="0.634" constant="true" units="per_hr">
       </parameter>
 
 
@@ -76,17 +76,17 @@
 
       <reaction id="Central_to_Peripheral" name="Central_to_Peripheral" reversible="false">
         <listOfReactants>
-          <speciesReference species="Amount_central"/>
+          <speciesReference species="drug_c"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Amount_compartment_2"/>
+          <speciesReference species="drug_p"/>
         </listOfProducts>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>Transfer_1_to_2</ci>
-        <ci>Amount_central</ci>
+        <ci>transfer_1_to_2</ci>
+        <ci>drug_c</ci>
         <ci>central</ci>
       </apply>
     </math>
@@ -95,17 +95,17 @@
 
       <reaction id="Peripheral_to_Central" name="Peripheral_to_Central" reversible="false">
         <listOfReactants>
-          <speciesReference species="Amount_compartment_2"/>
+          <speciesReference species="drug_p"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Amount_central"/>
+          <speciesReference species="drug_c"/>
         </listOfProducts>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>Transfer_2_to_1</ci>
-        <ci>Amount_compartment_2</ci>
+        <ci>transfer_2_to_1</ci>
+        <ci>drug_p</ci>
         <ci>peripheral</ci>
       </apply>
     </math>
@@ -114,14 +114,14 @@
 
       <reaction id="elimination" name="elimination" reversible="false">
         <listOfReactants>
-          <speciesReference species="Amount_central"/>
+          <speciesReference species="drug_c"/>
         </listOfReactants>
         <kineticLaw>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
         <times/>
-        <ci>Elim_rate_order_1</ci>
-        <ci>Amount_central</ci>
+        <ci>elimination_rate</ci>
+        <ci>drug_c</ci>
         <ci>central</ci>
       </apply>
     </math>
