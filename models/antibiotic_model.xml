@@ -128,9 +128,6 @@
                                 <apply>
                                 <times/>
                                 <ci> beta </ci>
-                                <apply>
-                                    <minus/>
-                                    <cn> 1 </cn>
                                     <apply>
                                     <exp/>
                                         <apply>
@@ -144,7 +141,6 @@
                                         <ci> t </ci>
                                         </apply>
                                     </apply>    
-                                </apply>
                                 </apply>
                             </apply>
                         </apply>
