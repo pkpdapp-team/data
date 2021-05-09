@@ -103,7 +103,7 @@
                         <apply>
                             <minus/>
                             <cn> 0 </cn>
-                            <cn> t </cn>
+                            <ci> t </ci>
                         </apply>  
                         <ci> alpha </ci>
                         </apply>
@@ -115,8 +115,6 @@
                     <ci> gamma </ci>
                     </apply>
                 </apply>
-                <apply>
-                    <times/>
                     <apply>
                     <plus/>
                     <apply>
@@ -143,7 +141,7 @@
                                             <ci> Drug_concentration </ci>
                                         </apply>
                                         <ci> tau </ci>
-                                        <cn> t </cn>
+                                        <ci> t </ci>
                                         </apply>
                                     </apply>    
                                 </apply>
@@ -158,7 +156,6 @@
                         <ci> gamma </ci>
                     </apply>
                     </apply>
-                </apply>
                 </apply>
             </apply>  
           </apply>
@@ -193,8 +190,7 @@
           </apply>
         </math>  
       </rateRule>
-      </rateRule>
-        <rateRule variable = "t">
+      <rateRule variable = "t">
         <math xmlns="http://www.w3.org/1998/Math/MathML" >
             <cn> 1 </cn>
         </math>  
