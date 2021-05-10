@@ -33,10 +33,10 @@
           <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="litre_per_mg">
+      <unitDefinition id="litre_per_g">
         <listOfUnits>
           <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
-          <unit kind="gram" exponent="-1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
     </listOfUnitDefinitions>
@@ -44,7 +44,7 @@
       <parameter id="circ_0" value="987" constant="true" units="per_mL"/>
       <parameter id="MTT" value="84.3" constant="true" units="hour"/>
       <parameter id="gamma" value="0.414" constant="true" units="dimensionless"/>
-      <parameter id="slope" value="0.0837" constant="true" units="litre_per_mg"/>
+      <parameter id="slope" value="8370" constant="true" units="litre_per_g"/>
       <parameter id="E_drug" value="0" constant="false" units="dimensionless"/>
       <parameter id="prol" value="987" units="per_mL" constant="false"/>
       <parameter id="T1" value="987" units="per_mL" constant="false"/>
@@ -61,8 +61,8 @@
     </listOfCompartments>
 
     <listOfSpecies>
-      <species id="central_drug" name="central_drug" compartment="central" initialConcentration="0.0000000000001" substanceUnits="mg" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="peripheral_drug" name="peripheral_drug" compartment="peripheral" initialConcentration="0" substanceUnits="mg" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="central_drug" name="central_drug" compartment="central" initialConcentration="1e-9" substanceUnits="gram" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="peripheral_drug" name="peripheral_drug" compartment="peripheral" initialConcentration="1e-9" substanceUnits="gram" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfReactions>
       <reaction id="elimination" name="elimination" reversible="false">

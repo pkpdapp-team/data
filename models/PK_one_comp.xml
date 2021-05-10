@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="myelotoxicity_friberg_model_PD" timeUnits="hour">
+    <listOfUnitDefinitions>
+      <unitDefinition id="hour">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="litre_per_hour">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    
+    <listOfParameters>
+      <parameter id="clearance" name="clearance" value="2.8" constant="true" units="litre_per_hour"/>
+    </listOfParameters>
+    
+    <listOfCompartments>
+      <compartment id="central" name="central" spatialDimensions="3" size="0.65" constant="true" units="litre"/>
+    </listOfCompartments>
+
+    <listOfSpecies>
+      <species id="drug" name="drug" compartment="central" initialConcentration="1e-9" substanceUnits="gram" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="elimination" name="elimination" reversible="false">
+        <listOfReactants>
+          <speciesReference species="drug" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci>clearance</ci>
+              <ci>drug</ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
