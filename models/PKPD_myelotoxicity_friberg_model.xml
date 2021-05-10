@@ -12,12 +12,12 @@
           <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="ml">
+      <unitDefinition id="litre_per_hour">
         <listOfUnits>
-          <unit kind="litre" exponent="-1" scale="0" multiplier="1e-3"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
-
       <unitDefinition id="per_litre">
         <listOfUnits>
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
@@ -33,9 +33,9 @@
           <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="millilitre_per_mg">
+      <unitDefinition id="litre_per_mg">
         <listOfUnits>
-          <unit kind="litre" exponent="1" scale="0" multiplier="1e-3"/>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
           <unit kind="gram" exponent="-1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
@@ -44,20 +44,20 @@
       <parameter id="circ_0" value="987" constant="true" units="per_mL"/>
       <parameter id="MTT" value="84.3" constant="true" units="hour"/>
       <parameter id="gamma" value="0.414" constant="true" units="dimensionless"/>
-      <parameter id="slope" value="0.0837" constant="true" units="millilitre_per_mg"/>
+      <parameter id="slope" value="0.0837" constant="true" units="litre_per_mg"/>
       <parameter id="E_drug" value="0" constant="false" units="dimensionless"/>
       <parameter id="prol" value="987" units="per_mL" constant="false"/>
       <parameter id="T1" value="987" units="per_mL" constant="false"/>
       <parameter id="T2" value="987" units="per_mL" constant="false"/>
       <parameter id="T3" value="987" units="per_mL" constant="false"/>
       <parameter id="circ" value="987" units="per_mL" constant="false"/>
-      <parameter id="clearance" name="clearance" value="14.38" constant="true" units="per_hour"/>
-      <parameter id="k_peripheral" name="k_peripheral" value="11.25" constant="true" units="per_hour"/>
+      <parameter id="clearance" name="clearance" value="2.8" constant="true" units="litre_per_hour"/>
+      <parameter id="k_peripheral" name="k_peripheral" value="2.1" constant="true" units="litre_per_hour"/>
     </listOfParameters>
     
     <listOfCompartments>
-      <compartment id="central" name="central" spatialDimensions="3" size="3.42" constant="true" units="litre"/>
-      <compartment id="peripheral" name="peripheral" spatialDimensions="3" size="22.25" constant="true" units="litre"/>
+      <compartment id="central" name="central" spatialDimensions="3" size="0.65" constant="true" units="litre"/>
+      <compartment id="peripheral" name="peripheral" spatialDimensions="3" size="4.2" constant="true" units="litre"/>
     </listOfCompartments>
 
     <listOfSpecies>
@@ -75,7 +75,6 @@
               <times/>
               <ci>clearance</ci>
               <ci>central_drug</ci>
-              <ci>central</ci>
             </apply>
           </math>
         </kineticLaw>
@@ -94,16 +93,8 @@
               <ci>k_peripheral</ci>
               <apply>
                 <minus/>
-                <apply>
-                  <times/>
                   <ci>central_drug</ci>
-                  <ci> central </ci>
-                </apply>
-                <apply>
-                  <times/>
                   <ci>peripheral_drug</ci>
-                  <ci>peripheral</ci>
-                </apply>
               </apply>
             </apply>
           </math>
