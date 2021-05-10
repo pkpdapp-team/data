@@ -40,7 +40,7 @@
       <parameter id="Drug_concentration" value="10" constant="false" units="mg_per_kg"/>
     </listOfParameters>
     <listOfCompartments>
-      <compartment constant="false" id="P1" size="1" units="dimensionless"/>
+      <compartment constant="false" id="P1" size="7e6" units="dimensionless"/>
       <compartment constant="false" id="P2" size="1" units="dimensionless"/>
       <compartment constant="false" id="Ptotal" size="1" units="dimensionless"/>
       <compartment constant="false" id="t" size="1" units="dimensionless"/>
@@ -128,6 +128,9 @@
                                 <apply>
                                 <times/>
                                 <ci> beta </ci>
+                                  <apply>
+                                  <minus/>
+                                    <cn> 1 </cn>
                                     <apply>
                                     <exp/>
                                         <apply>
@@ -140,7 +143,8 @@
                                         <ci> tau </ci>
                                         <ci> t </ci>
                                         </apply>
-                                    </apply>    
+                                    </apply> 
+                                  </apply>   
                                 </apply>
                             </apply>
                         </apply>
