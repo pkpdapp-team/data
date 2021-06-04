@@ -1,0 +1,45 @@
+[[model]]
+name: Viral Kinetics Model  
+author: Ken Wang
+
+# Initial values:
+PDCompartment.T = 4E6
+PDCompartment.I1 = 0
+PDCompartment.I2 = 0
+PDCompartment.V =0.1
+
+[environment]
+t = 0 bind time
+    
+
+
+[PDCompartment]
+Beta=0.000001 #[mL/Cp/d] 
+    desc: Infection rate constant
+
+K= 1 #[1/d] 
+    desc: Transition rate constant
+   
+Delta = 1 #[1/d] 
+    desc: Cell mortality rate constant
+    
+p = 1 #[Cp/d/Cell]     
+    desc: Virion production rate constant
+    
+c = 1 #[1/d]
+    desc: Virion elimination rate constant
+     
+    
+      
+dot(T) = -Beta*V*T
+    desc: the target cell unit in Cell/mL
+        
+dot(I1) = Beta*V*T-K*I1
+    desc: Infected cells in Eclipse unit in Cell/mL
+    
+dot(I2) = K*I1-Delta*I2
+    desc: prodcutive infected cell unit in Cell/mL
+    
+dot(V) = p*I2-c*V
+    desc: Virion load in Cp/mL     
+    

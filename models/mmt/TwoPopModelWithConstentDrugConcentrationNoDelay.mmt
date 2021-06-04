@@ -1,0 +1,73 @@
+[[model]]
+name: Adaptive Antibiotic Model 
+author: Ken Wang
+
+# Initial values:
+PDCompartment.P1 = 10 #10^6.58
+PDCompartment.P2 = 0
+PDCompartment.P3 = 1
+PDCompartment.P4 = 0
+#doseCompart.Drug_DoseCompart = 0
+#PKCompartment.Drug_Central = 0
+
+[environment]
+t = 0 bind time
+    
+
+[drug]
+drugAmount = 1  # Will be set later by Python script 
+DoseBinary = 0  # 0 when not dosing, 1 when dosing
+    bind pace   # set DoseBinary using the protocol
+drugApplication = DoseBinary * drugAmount
+
+
+[PDCompartment]
+
+KNetgrowth = 1 #[1/h] 
+    desc: rate of bacterial net growth 
+   
+tvbmax = 1 
+    desc: maximal possible size of the inoculum in CFU/mL
+    
+Kmax = 1 #[1/h]
+    desc: maximum killing rate of the compound 
+    
+EC50Norm = 1 #[ug/mL]
+    desc: EC50 of antibiotic killing of susceptible bacterials
+    
+EC50Res = 1 #[ug/mL]
+    desc: EC50 of antibiotic killing of resistant bacterials    
+    
+gamma = 1  #[dimensionless]
+    desc: Hill Coefficient of killling 
+    
+
+Kdeath = 1 #[1/h] 
+    desc: death rate of the P population 
+    
+    
+Drug_Concentration =  drug.drugApplication   
+    desc:The fixed drug concentration (e.g. for in vitro TK) in ug/mL
+
+Ksr =  (KNetgrowth/tvbmax) *(P1+P2+P3+P4)  # transition rate from S to P drug senstive pop
+
+drugNorm = Kmax * Drug_Concentration^gamma/ (EC50Norm^gamma + Drug_Concentration ^gamma)
+
+drugRes = Kmax * Drug_Concentration^gamma/ (EC50Res^gamma + Drug_Concentration ^gamma)
+       
+dot(P1) = KNetgrowth*P1-Ksr*P1-drugNorm*P1
+    desc: the growing and susceptible population of bacterial in  CFU/mL
+    
+dot(P2) = Ksr*P1- Kdeath*P2
+    desc: the sleeping population of susceptible bacterial in CFU/mL
+    
+dot(P3) = KNetgrowth*P3-Ksr*P3-drugRes*P3
+    desc: the growing and susceptible population of bacterial in  CFU/mL
+    
+dot(P4) = Ksr*P3- Kdeath*P4
+    desc: the sleeping population of susceptible bacterial in CFU/mL   
+     
+Total_Bacterial = P1+P2+P3+P4
+    desc: total population of bacterial in CFU/mL  
+    
+    
