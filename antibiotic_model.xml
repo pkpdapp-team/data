@@ -40,7 +40,7 @@
       <parameter id="Drug_concentration" value="10" constant="false" units="mg_per_kg"/>
     </listOfParameters>
     <listOfCompartments>
-      <compartment constant="false" id="P1" size="7e6" units="dimensionless"/>
+      <compartment constant="false" id="P1" size="1" units="dimensionless"/>
       <compartment constant="false" id="P2" size="1" units="dimensionless"/>
       <compartment constant="false" id="Ptotal" size="1" units="dimensionless"/>
       <compartment constant="false" id="t" size="1" units="dimensionless"/>
@@ -103,7 +103,7 @@
                         <apply>
                             <minus/>
                             <cn> 0 </cn>
-                            <ci> t </ci>
+                            <cn> t </cn>
                         </apply>  
                         <ci> alpha </ci>
                         </apply>
@@ -115,6 +115,8 @@
                     <ci> gamma </ci>
                     </apply>
                 </apply>
+                <apply>
+                    <times/>
                     <apply>
                     <plus/>
                     <apply>
@@ -128,8 +130,8 @@
                                 <apply>
                                 <times/>
                                 <ci> beta </ci>
-                                  <apply>
-                                  <minus/>
+                                <apply>
+                                    <minus/>
                                     <cn> 1 </cn>
                                     <apply>
                                     <exp/>
@@ -141,10 +143,10 @@
                                             <ci> Drug_concentration </ci>
                                         </apply>
                                         <ci> tau </ci>
-                                        <ci> t </ci>
+                                        <cn> t </cn>
                                         </apply>
-                                    </apply> 
-                                  </apply>   
+                                    </apply>    
+                                </apply>
                                 </apply>
                             </apply>
                         </apply>
@@ -156,6 +158,7 @@
                         <ci> gamma </ci>
                     </apply>
                     </apply>
+                </apply>
                 </apply>
             </apply>  
           </apply>
@@ -190,7 +193,8 @@
           </apply>
         </math>  
       </rateRule>
-      <rateRule variable = "t">
+      </rateRule>
+        <rateRule variable = "t">
         <math xmlns="http://www.w3.org/1998/Math/MathML" >
             <cn> 1 </cn>
         </math>  

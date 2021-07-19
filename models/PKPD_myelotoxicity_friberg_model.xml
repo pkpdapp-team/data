@@ -12,9 +12,20 @@
           <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="litre_per_hour">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="per_litre">
         <listOfUnits>
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mL">
+        <listOfUnits>
+          <unit kind="litre" exponent="-1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="mg">
@@ -22,45 +33,69 @@
           <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="litre_per_mg">
+      <unitDefinition id="litre_per_g">
         <listOfUnits>
           <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
-          <unit kind="gram" exponent="-1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfParameters>
-      <parameter id="circ_0" value="40" constant="true" units="per_litre"/>
-      <parameter id="MTT" value="125" constant="true" units="hour"/>
-      <parameter id="gamma" value="0.1" constant="true" units="dimensionless"/>
-      <parameter id="slope" value="0.1" constant="true" units="litre_per_mg"/>
+      <parameter id="circ_0" value="987" constant="true" units="per_mL"/>
+      <parameter id="MTT" value="84.3" constant="true" units="hour"/>
+      <parameter id="gamma" value="0.414" constant="true" units="dimensionless"/>
+      <parameter id="slope" value="8370" constant="true" units="litre_per_g"/>
       <parameter id="E_drug" value="0" constant="false" units="dimensionless"/>
-      <parameter id="prol" value="40" units="per_litre" constant="false"/>
-      <parameter id="T1" value="40" units="per_litre" constant="false"/>
-      <parameter id="T2" value="40" units="per_litre" constant="false"/>
-      <parameter id="T3" value="40" units="per_litre" constant="false"/>
-      <parameter id="circ" value="40" units="per_litre" constant="false"/>
-      <parameter id="k10" name="k10" value="0.555" constant="true" units="per_hour"/>
+      <parameter id="prol" value="987" units="per_mL" constant="false"/>
+      <parameter id="T1" value="987" units="per_mL" constant="false"/>
+      <parameter id="T2" value="987" units="per_mL" constant="false"/>
+      <parameter id="T3" value="987" units="per_mL" constant="false"/>
+      <parameter id="circ" value="987" units="per_mL" constant="false"/>
+      <parameter id="clearance" name="clearance" value="2.8" constant="true" units="litre_per_hour"/>
+      <parameter id="k_peripheral" name="k_peripheral" value="2.1" constant="true" units="litre_per_hour"/>
     </listOfParameters>
     
     <listOfCompartments>
-      <compartment id="central" name="central" spatialDimensions="3" size="0.2" constant="true" units="litre"/>
+      <compartment id="central" name="central" spatialDimensions="3" size="0.65" constant="true" units="litre"/>
+      <compartment id="peripheral" name="peripheral" spatialDimensions="3" size="4.2" constant="true" units="litre"/>
     </listOfCompartments>
+
     <listOfSpecies>
-      <species id="A1" name="A1" compartment="central" initialConcentration="1" substanceUnits="mg" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="central_drug" name="central_drug" compartment="central" initialConcentration="1e-9" substanceUnits="gram" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="peripheral_drug" name="peripheral_drug" compartment="peripheral" initialConcentration="1e-9" substanceUnits="gram" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfReactions>
       <reaction id="elimination" name="elimination" reversible="false">
         <listOfReactants>
-          <speciesReference species="A1" constant="true"/>
+          <speciesReference species="central_drug" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci>k10</ci>
-              <ci>A1</ci>
-              <ci>central</ci>
+              <ci>clearance</ci>
+              <ci>central_drug</ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Central_to_Peripheral" name="Central_to_Peripheral" reversible="true">
+        <listOfReactants>
+          <speciesReference species="central_drug" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="peripheral_drug" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci>k_peripheral</ci>
+              <apply>
+                <minus/>
+                  <ci>central_drug</ci>
+                  <ci>peripheral_drug</ci>
+              </apply>
             </apply>
           </math>
         </kineticLaw>
@@ -73,7 +108,7 @@
           <apply>
             <times/>
             <ci> slope </ci>
-            <ci> A1 </ci>
+            <ci> central_drug </ci>
           </apply>
         </math>
       </assignmentRule>
