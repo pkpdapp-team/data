@@ -1,0 +1,28 @@
+Parameters :
+
+Ka
+CL 
+Vc 
+fu
+KNetgrowth   
+tvbmax    
+Kmax
+EC50k 
+gamma 
+beta
+tau
+Alpha
+Kdeath
+Ksr_max 
+
+[2,3,5,0.014,2.3, 1000000000, 3.2, 0.5, 3.8, 44, 0.002, 3.1, 0.3, 2.8]
+
+
+Noise :
+
+value=np.asarray([v+ np.random.normal(0,0.1*v, v.shape) for v in value])
+
+
+Doses :
+
+TotalDoseLevel= np.array([125000, 375000, 1125000, 3375000])
