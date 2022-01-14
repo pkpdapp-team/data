@@ -1,0 +1,10 @@
+Parameters
+CL 3
+Vc 5
+Qp1 8
+Vp1 50
+Qp2 2
+Vp2 10
+
+Noise :
+value=np.asarray([v+ np.random.normal(0,0.1*v, v.shape) for v in value])
