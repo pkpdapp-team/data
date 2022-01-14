@@ -8,3 +8,6 @@ Vp2 10
 
 Noise :
 value=np.asarray([v+ np.random.normal(0,0.1*v, v.shape) for v in value])
+
+Doses :
+TotalDoseLevel= np.array([25000, 125000, 375000])
