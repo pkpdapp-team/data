@@ -1,0 +1,23 @@
+COMPOUND,DOSE,ID,DV,TIME,TIME_UNIT,EVID,CENS,AMT,TINF,WT,UNIT,YTYPE,YDESC,MDV,STUDYID,SPECIES,SEX,SUBJECT_GROUP,STUDYID,DOSE_GROUP
+DemoDrug,15,10,.,0,h,1,0,15,0.01,0.2,mg,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,10,7.99805671573222E+03,1,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,10,3.10772273486105E+03,2,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,10,2.56523545440905E+03,7,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,10,.,8,h,1,0,15,0.01,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,10,1.07174109093587E+04,9,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,10,.,16,h,1,0,15,0.01,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,10,9.93998051866217E+03,17,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,11,.,0,h,1,0,15,0.01,0.2,mg,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,11,7.98681974868864E+03,1,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,11,.,8,h,1,0,15,0.01,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,11,1.06847915657982E+04,9,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,11,.,16,h,1,0,15,0.01,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,11,9.85001944260086E+03,17,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,.,0,h,1,0,15,0.01,0.2,mg,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,8.08464431919382E+03,1,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,3.12368205520360E+03,2,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,2.55262430710625E+03,7,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,.,8,h,1,0,15,0.01,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,1.06685843423030E+04,9,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,.,16,h,1,0,15,0.01,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
+DemoDrug,15,12,1.00151963440762E+04,17,h,0,0,.,.,0.2,ng/mL,1,DemoDrug Concentration,0,DEMO,Rat,Male,.,.,.
