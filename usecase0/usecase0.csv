@@ -1,0 +1,20 @@
+COMPOUND,DOSE,ID,DV,TIME,TIME_UNIT,EVID,CENS,AMT,TINF,WT,UNIT,YTYPE,YDESC,MDV,STUDYID,SPECIES,SEX,SUBJECT_GROUP,STUDYID,DOSE_GROUP,ROUTE
+DemoDrug,1,1,.,0,h,1,0,25000,0.001,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,2375.71669,0.083,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,1711.971775,0.25,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,1223.67009,0.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,863.30798,1,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,584.429947,2,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,411.43386,3,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,294.058313,4,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,214.460505,5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,157.251257,6,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,120.48646,7,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,60.32915,10,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,51.346773,11,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,42.46163,12,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,33.510042,15,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,31.451622,16,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,27.661124,18,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,24.185177,20,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
+DemoDrug,1,1,21.797338,24,h,0,0,,,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,IV
