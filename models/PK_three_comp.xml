@@ -23,7 +23,7 @@
       <parameter id="clearance" name="clearance" value="2.8" constant="true" units="litre_per_hour"/>
       <parameter id="k_peripheral1" name="k_peripheral1" value="2.1" constant="true" units="litre_per_hour"/>
       <parameter id="k_peripheral2" name="k_peripheral2" value="1.5" constant="true" units="litre_per_hour"/>
-      <parameter id="drug_c_scale_factor" name="drug_scale_factor" value="l.0" constant="true" units="dimensionless"/>
+      <parameter id="drug_c_scale_factor" name="drug_scale_factor" value="1.0" constant="true" units="dimensionless"/>
       <parameter id="scaled_drug_c_concentration" name="scaled_drug_concentration" constant="false" units="gram_per_litre"/>
     </listOfParameters>
     
