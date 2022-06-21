@@ -12,11 +12,19 @@
           <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="gram_per_litre">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
     </listOfUnitDefinitions>
     
     <listOfParameters>
       <parameter id="clearance" name="clearance" value="2.8" constant="true" units="litre_per_hour"/>
       <parameter id="k_peripheral" name="k_peripheral" value="2.1" constant="true" units="litre_per_hour"/>
+      <parameter id="drug_c_scale_factor" name="drug_c_scale_factor" constant="true" units="dimensionless"/>
+      <parameter id="scaled_drug_c_concentration" name="scaled_drug_c_concentration" constant="false" units="gram_per_litre"/>
     </listOfParameters>
     
     <listOfCompartments>
@@ -28,6 +36,18 @@
       <species id="drug_c" name="drug_c" compartment="central" initialConcentration="1e-9" substanceUnits="gram" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="drug_p" name="drug_p" compartment="peripheral" initialConcentration="1e-9" substanceUnits="gram" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
+
+    <listOfRules>
+      <assignmentRule variable="scaled_drug_c_concentration">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <cn> drug_c_scale_factor </cn>
+            <ci> drug_c_concentation </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
     
     <listOfReactions>
       <reaction id="elimination" name="elimination" reversible="false">
