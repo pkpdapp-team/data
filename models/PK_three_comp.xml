@@ -44,7 +44,7 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <times/>
-            <cn> drug_c_scale_factor </cn>
+            <ci> drug_c_scale_factor </ci>
             <ci> drug_c_concentation </ci>
           </apply>
         </math>
