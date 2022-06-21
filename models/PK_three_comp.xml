@@ -45,7 +45,7 @@
           <apply>
             <times/>
             <ci> drug_c_scale_factor </ci>
-            <ci> drug_c_concentation </ci>
+            <ci> drug_c </ci>
           </apply>
         </math>
       </assignmentRule>
