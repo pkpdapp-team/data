@@ -22,7 +22,7 @@
     
     <listOfParameters>
       <parameter id="clearance" name="clearance" value="2.8" constant="true" units="litre_per_hour"/>
-      <parameter id="drug_scale_factor" name="drug_scale_factor" constant="true" units="dimensionless"/>
+      <parameter id="drug_scale_factor" name="drug_scale_factor" value="l.0" constant="true" units="dimensionless"/>
       <parameter id="scaled_drug_concentration" name="scaled_drug_concentration" constant="false" units="gram_per_litre"/>
     </listOfParameters>
     
