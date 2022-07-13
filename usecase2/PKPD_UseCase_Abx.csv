@@ -1,0 +1,562 @@
+﻿COMPOUND,DOSE,ID,DV,TIME,TIME_UNIT,EVID,CENS,AMT,TINF,WT,UNIT,YTYPE,YDESC,MDV,STUDYID,SPECIES,SEX,SUBJECT_GROUP,STUDYID,DOSE_GROUP,ROUTE
+DemoDrug,1,1,.,0,h,1,0,650000,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,16439.7,0.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,9468.18,1,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,5024.85,1.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,2660.07,2,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,1419.98,2.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,770.001,3,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,428.795,3.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,249.134,4,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,154.017,4.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,103.167,5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,75.5165,5.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,.,6,h,1,0,650000,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,60.0489,6,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,16490.8,6.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,9513.53,7,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,5066.36,7.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,2698.76,8,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,1456.4,8.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,804.487,9,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,461.549,9.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,280.297,10,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,183.697,10.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,131.446,11,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,102.47,11.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,.,12,h,1,0,650000,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,85.7442,12,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,16515.2,12.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,9536.91,13,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,5088.65,13.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,2720.01,14,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,1476.66,14.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,823.803,15,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,479.968,15.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,297.863,16,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,200.438,16.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,147.397,17,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,117.685,17.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,.,18,h,1,0,650000,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,.,.,SC
+DemoDrug,1,1,100.25,18,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,16527.4,18.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,9549.81,19,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,5101.24,19.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,2732.04,20,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,1488.14,20.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,834.748,21,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,490.408,21.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,307.82,22,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,209.943,22.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,156.485,23,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,1,1,126.358,23.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,1,,.,SC
+DemoDrug,2,2,.,0,h,1,0,1.30E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,.,.,SC
+DemoDrug,2,2,32875.6,0.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,18935.7,1,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,10049.7,1.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,5320.15,2,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,2839.97,2.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,1540.01,3,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,857.594,3.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,498.267,4,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,308.021,4.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,206.28,5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,150.984,5.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,.,6,h,1,0,1.30E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,.,.,SC
+DemoDrug,2,2,120.046,6,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,32982.4,6.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,19027.2,7,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,10132.8,7.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,5397.54,8,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,2912.81,8.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,1608.98,9,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,923.099,9.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,560.594,10,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,367.385,10.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,262.903,11,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,204.992,11.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,.,12,h,1,0,1.30E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,.,.,SC
+DemoDrug,2,2,171.524,12,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,33028.9,12.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,19073.7,13,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,10177.3,13.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,5440.03,14,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,2953.32,14.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,1647.61,15,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,959.936,15.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,595.723,16,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,400.866,16.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,294.809,17,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,235.358,17.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,.,18,h,1,0,1.30E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,.,.,SC
+DemoDrug,2,2,200.508,18,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,33059.4,18.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,19100.4,19,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,10202.5,19.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,5464.06,20,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,2976.26,20.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,1669.49,21,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,980.809,21.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,615.637,22,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,419.883,22.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,312.923,23,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,2,2,252.647,23.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,2,,.,SC
+DemoDrug,3,3,.,0,h,1,0,2.60E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,65753.4,0.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,37871.7,1,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,20099.3,1.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,10640.3,2,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,5679.93,2.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,3080.01,3,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,1715.19,3.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,996.54,4,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,616.062,4.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,412.618,5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,301.979,5.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,.,6,h,1,0,2.60E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,240.124,6,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,65954,6.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,38053.2,7,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,20265.5,7.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,10795.1,8,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,5825.66,8.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,3217.98,9,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,1846.21,9.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,1121.19,10,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,734.761,10.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,525.746,11,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,409.863,11.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,.,12,h,1,0,2.60E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,342.989,12,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,66065.2,12.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,38148.3,13,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,20354.7,13.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,10880,14,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,5906.64,14.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,3295.21,15,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,1919.87,15.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,1191.45,16,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,801.776,16.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,589.65,17,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,470.749,17.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,.,18,h,1,0,2.60E+06,0.01,0.025,ng,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,401.037,18,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,66118,18.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,38200.8,19,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,20405.1,19.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,10928.2,20,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,5952.53,20.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,3338.98,21,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,1961.62,21.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,1231.27,22,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,839.765,22.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,625.922,23,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,3,3,505.457,23.5,h,0,0,.,.,0.025,ng/mL,1,DemoDrug Concentration,0,DEMO,Mice,Male,3,.,.,SC
+DemoDrug,4,4,.,0,h,1,0,0,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.10E+06,0,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,,,SC
+DemoDrug,4,4,1.41E+06,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.82E+06,1,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,2.33E+06,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,2.99E+06,2,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,3.83E+06,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.91E+06,3,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,6.29E+06,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,8.05E+06,4,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.03E+07,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.32E+07,5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.68E+07,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,.,6,h,1,0,0,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,2.14E+07,6,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,2.72E+07,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,3.44E+07,7,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.34E+07,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,5.46E+07,8,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,6.83E+07,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,8.48E+07,9,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.05E+08,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.28E+08,10,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.54E+08,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,1.84E+08,11,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,2.16E+08,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,.,12,h,1,0,0,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,2.50E+08,12,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,2.85E+08,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,3.19E+08,13,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,3.52E+08,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,3.82E+08,14,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.07E+08,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.29E+08,15,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.46E+08,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.59E+08,16,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.68E+08,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.74E+08,17,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.76E+08,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,.,18,h,1,0,0,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.77E+08,18,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.76E+08,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.73E+08,19,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.70E+08,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.67E+08,20,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.64E+08,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.60E+08,21,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.57E+08,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.55E+08,22,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.53E+08,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.51E+08,23,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,4,4,4.50E+08,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,4,.,.,SC
+DemoDrug,1,5,.,0,h,1,0,650000,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,752526,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,499546,1,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,461314,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,561372,2,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,717055,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,919935,3,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.18E+06,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.51E+06,4,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.94E+06,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.49E+06,5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,3.20E+06,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,.,6,h,1,0,650000,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,4.10E+06,6,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.98E+06,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.18E+06,7,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.20E+06,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.72E+06,8,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,3.46E+06,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,4.44E+06,9,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,5.68E+06,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,7.27E+06,10,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,9.31E+06,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.19E+07,11,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.52E+07,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,.,12,h,1,0,650000,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.94E+07,12,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.51E+07,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.22E+07,13,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.31E+07,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.62E+07,14,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.05E+07,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.60E+07,15,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,3.29E+07,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,4.15E+07,16,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,5.22E+07,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,6.53E+07,17,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,8.12E+07,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,.,18,h,1,0,650000,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.00E+08,18,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,8.27E+07,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,7.13E+07,19,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,7.70E+07,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,9.14E+07,20,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.10E+08,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.33E+08,21,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.59E+08,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,1.89E+08,22,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.21E+08,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.55E+08,23,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,1,5,2.89E+08,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,5,.,.,SC
+DemoDrug,2,6,.,0,h,1,0,1.30E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,703091,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,429757,1,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,281542,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,253215,2,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,305008,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,389077,3,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,499135,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,640656,4,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,822313,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.06E+06,5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.35E+06,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,.,6,h,1,0,1.30E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.13E+06,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,710187,7,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,507492,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,501827,8,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,613750,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,783017,9,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.00E+06,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.29E+06,10,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.65E+06,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,2.12E+06,11,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,2.72E+06,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,.,12,h,1,0,1.30E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,3.49E+06,12,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,2.34E+06,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.52E+06,13,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.20E+06,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.27E+06,14,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.57E+06,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,2.00E+06,15,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,2.56E+06,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,3.28E+06,16,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,4.21E+06,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,5.39E+06,17,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,6.90E+06,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,.,18,h,1,0,1.30E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,8.84E+06,18,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,6.10E+06,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,4.13E+06,19,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,3.52E+06,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,3.90E+06,20,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,4.85E+06,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,6.18E+06,21,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,7.90E+06,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.01E+07,22,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.29E+07,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,1.64E+07,23,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,2,6,2.09E+07,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,6,.,.,SC
+DemoDrug,3,7,.,0,h,1,0,2.60E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,686666,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,416778,1,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,254615,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,165635,2,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,144796,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,171913,3,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,218780,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,280579,4,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,360138,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,462304,5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,593449,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,.,6,h,1,0,2.60E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,761762,6,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,478517,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,291843,7,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,182275,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,128446,8,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,123502,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,149205,9,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,189937,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,243537,10,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,312572,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,401240,11,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,515069,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,.,12,h,1,0,2.60E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,661172,12,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,419179,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,257321,13,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,165932,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,127704,14,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,132225,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,162037,15,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,206485,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,264760,16,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,339808,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,436201,17,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,559944,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,.,18,h,1,0,2.60E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,718765,18,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,459460,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,283617,19,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,188971,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,157333,20,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,171717,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,212649,21,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,271259,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,347828,22,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,446405,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,573006,23,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,3,7,735508,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,7,.,.,SC
+DemoDrug,5,8,.,0,h,1,0,3.90E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,681950,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,413803,1,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,251487,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,155366,2,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,109170,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,109699,3,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,135492,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,173144,4,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,222134,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,285135,5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,366036,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,.,6,h,1,0,3.90E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,469894,6,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,291917,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,177383,7,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,108709,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,69749.2,8,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,54160.4,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,57826.9,9,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,71780.4,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,91683.1,10,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,117600,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,150951,11,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,193789,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,.,12,h,1,0,3.90E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,248792,12,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,155447,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,94609.7,13,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,58670.2,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,39583.4,14,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,33825.8,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,37863.1,15,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,47291.5,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,60422.4,16,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,77501.2,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,99480.6,17,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,127715,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,.,18,h,1,0,3.90E+06,0.01,0.025,ng,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,163969,18,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,102934,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,62721.3,19,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,39318.3,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,27890.4,20,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,25772.7,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,29835.8,21,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,37465.2,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,47892.8,22,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,61432,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,78854.3,23,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,5,8,101235,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,0,DEMO,Mice,Male,8,.,.,SC
+DemoDrug,6,9,.,0,h,1,0,5.20E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,679358,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,412154,1,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,250193,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,152836,2,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,98713.4,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,83322,3,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,96699.4,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,122481,4,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,156943,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,201412,5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,258549,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,.,6,h,1,0,5.20E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,331914,6,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,205212,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,124539,7,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,75912.5,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,47308.4,8,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,32825.5,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,30378.6,9,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,35908.4,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,45454.2,10,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,58207.7,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,74688,11,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,95874.4,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,.,12,h,1,0,5.20E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,123085,12,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,76418.6,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,46415.7,13,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,28437.2,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,18221,14,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,13703.6,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,13700.2,15,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,16489.3,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,20901.1,16,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,26762.7,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,34337.1,17,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,44076.3,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,.,18,h,1,0,5.20E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,56586.1,18,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,35236.4,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,21409.5,19,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,13168.3,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,8673.62,20,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,7018.82,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,7433.14,21,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,9075.01,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,11523.7,22,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,14757.4,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,18933.7,23,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,6,9,24303.5,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,9,.,.,SC
+DemoDrug,7,10,.,0,h,1,0,6.50E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,678033,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,411476,1,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,249708,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,151994,2,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,95077.3,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,70793,3,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,75120.9,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,93557.3,4,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,119587,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,153404,5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,196901,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,.,6,h,1,0,6.50E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,252768,6,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,156020,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,94688.3,7,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,57593.6,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,35473.6,8,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,23290.5,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,19122,9,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,21093.8,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,26277.2,10,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,33543.5,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,43007.6,11,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,55194.4,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,.,12,h,1,0,6.50E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,70853.4,12,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,43782.4,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,26578.2,13,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,16206,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,10143.9,14,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,7071.49,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,6354.15,15,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,7261.19,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,9081.1,16,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,11590.8,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,14857.8,17,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,19065.6,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,.,18,h,1,0,6.50E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,24473,18,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,15176.8,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,9211.77,19,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,5624.78,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,3574.28,20,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,2639.98,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,2549.22,21,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,2992.61,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,3759.14,22,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,4800.09,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,6152.83,23,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,7,10,7894.93,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,10,.,.,SC
+DemoDrug,8,11,.,0,h,1,0,9.75E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,676220,0.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,410253,1,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,248914,1.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,151153,2,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,92461.2,2.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,59932.1,3,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,50197.9,3.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,57341.4,4,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,72194.3,4.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,92351.3,5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,118455,5.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,.,6,h,1,0,9.75E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,152029,6,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,93470.5,6.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,56704.5,7,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,34428.1,7.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,20997,8,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,13108.5,8.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,9090.12,9,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,8246.47,9.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,9532.84,10,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,11952.9,10.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,15254.6,11,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,19546.6,11.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,.,12,h,1,0,9.75E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,25074.8,12,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,15429.8,12.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,9363.28,13,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,5687.72,13.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,3486.08,14,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,2235.85,14.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,1672.07,15,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,1633.49,15.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,1925.46,16,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,2416.91,16.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,3082.2,17,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,3947.13,17.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,.,18,h,1,0,9.75E+06,0.01,0.025,ng,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,5061.54,18,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,3120.09,18.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,1892.79,19,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,1149.84,19.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,707.347,20,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,465.654,20.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,373.062,21,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,386.346,21.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,463.482,22,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,583.457,22.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,744.228,23,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
+DemoDrug,8,11,952.944,23.5,h,0,0,.,.,0.025,ng/mL,2,CFU,1,DEMO,Mice,Male,11,.,.,SC
