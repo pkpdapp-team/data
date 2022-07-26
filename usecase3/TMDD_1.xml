@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="TMDD_OneCompartment" timeUnits="day">
+    <listOfUnitDefinitions>
+      <unitDefinition id="per_day">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="day">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+     </unitDefinition>
+      <unitDefinition id="nM">
+        <listOfUnits>
+          <unit kind="M" exponent="1" scale="-9" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="nM_per_day">
+        <listOfUnits>
+          <unit kind="M" exponent="1" scale="-9" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+     </unitDefinition>
+      <unitDefinition id="per_nM_day">
+        <listOfUnits>
+          <unit kind="M" exponent="-1" scale="-9" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="L_per_kg">
+        <listOfUnits>
+          <unit kind="liter" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="3" multiplier="1"/>
+        </listOfUnits>
+     </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfParameters>
+      <parameter id="Kel" value="0.024" constant="false" units="per_day"/>
+      <parameter id="kep" value="0.201" constant="false" units="per_day"/>
+      <parameter id="Kout" value="0.823" constant="false" units="per_day"/>
+      <parameter id="Koff" value="0.9" constant="false" units="per_day"/>
+      <parameter id="Kon" value="0.592" constant="false" units="per_nM_day"/>
+      <parameter id="Kin" value="2.2122" constant="false" units="nM_per_day"/>
+      <parameter id="Vc" value="0.04" constant="false" units="L_per_kg"/>
+    </listOfParameters>
+    <listOfCompartments>
+      <compartment constant="false" id="L" size="1" units="nM"/>
+      <compartment constant="false" id="R" size="1" units="nM"/>
+      <compartment constant="false" id="P" size="1" units="nM"/>
+      <compartment constant="false" id="t" size="1" units="day"/>
+    </listOfCompartments>
+    <listOfRules>
+      <rateRule variable="L">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> Koff </ci>
+                <ci> P </ci>              
+              </apply>
+              <apply>
+                <times/>
+                <ci> Kel </ci>
+                <ci> L </ci>              
+               </apply>
+             </apply>
+             <apply>
+              <times/>
+              <ci> Kon </ci>
+              <ci> L </ci>
+              <ci> R </ci>              
+             </apply>
+          </apply>      
+        </math>
+      </rateRule>
+      <rateRule variable = "R">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" >
+          <apply>
+            <plus/>
+              <apply>
+               <minus/>   
+	        <apply>
+                  <minus/>
+                  <ci> Kin </ci>
+                 <apply>
+                  <times/>
+                  <ci> Kout </ci>
+                  <ci> R </ci>              
+                 </apply>
+                </apply>	     
+               <apply>
+                <times/>
+                <ci> Kon </ci>
+                <ci> L </ci>
+                <ci> R </ci>              
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Koff </ci>
+              <ci> P </ci>                          
+             </apply>
+          </apply>
+                
+       </math>  
+     </rateRule>
+      <rateRule variable = "P">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" >
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> Kon </ci>
+                <ci> L </ci>
+                <ci> R </ci>                
+              </apply>
+	      <apply>
+                <times/>
+                <ci> Koff </ci>
+                <ci> P </ci>              
+              </apply>
+             </apply>
+             <apply>
+              <times/>
+              <ci> Kep</ci>
+              <ci> P </ci>                    
+             </apply>
+           </apply> 
+                
+       </math>  
+      </rateRule>
+      <rateRule variable = "t">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" >
+            <cn> 1 </cn>
+        </math>  
+      </rateRule>
+      <assignmentRule variable = "Ltotal">
+        <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+          <apply>
+            <plus/>
+            <ci> L </ci>
+            <ci> P </ci>
+          </apply>
+        </math>  
+      </assignmentRule>
+
+      <assignmentRule variable = "Rtotal">
+        <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+          <apply>
+            <plus/>
+            <ci> R </ci>
+            <ci> P </ci>
+          </apply>
+        </math>  
+      </assignmentRule>
+    </listOfRules>
+  </model>
+</sbml>
