@@ -14,18 +14,18 @@
      </unitDefinition>
       <unitDefinition id="nM">
         <listOfUnits>
-          <unit kind="M" exponent="1" scale="-9" multiplier="1"/>
+          <unit kind="mole" exponent="1" scale="-9" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="nM_per_day">
         <listOfUnits>
-          <unit kind="M" exponent="1" scale="-9" multiplier="1"/>
+          <unit kind="mole" exponent="1" scale="-9" multiplier="1"/>
           <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
         </listOfUnits>
      </unitDefinition>
       <unitDefinition id="per_nM_day">
         <listOfUnits>
-          <unit kind="M" exponent="-1" scale="-9" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="-9" multiplier="1"/>
           <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
         </listOfUnits>
       </unitDefinition>
