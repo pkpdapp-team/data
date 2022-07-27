@@ -40,7 +40,7 @@
       <parameter id="Ltotal" value="0" constant="false" units="nM"/>
       <parameter id="Rtotal" value="0" constant="false" units="nM"/>
       <parameter id="Kel" value="0.024" constant="true" units="per_day"/>
-      <parameter id="kep" value="0.201" constant="true" units="per_day"/>
+      <parameter id="Kep" value="0.201" constant="true" units="per_day"/>
       <parameter id="Kout" value="0.823" constant="true" units="per_day"/>
       <parameter id="Koff" value="0.9" constant="true" units="per_day"/>
       <parameter id="Kon" value="0.592" constant="true" units="per_nM_day"/>
@@ -131,7 +131,7 @@
              </apply>
              <apply>
               <times/>
-              <ci> Kep</ci>
+              <ci> Kep </ci>
               <ci> P </ci>                    
              </apply>
            </apply> 
