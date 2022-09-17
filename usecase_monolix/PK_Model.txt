@@ -1,0 +1,45 @@
+DESCRIPTION:
+Target Binding Model 
+
+[LONGITUDINAL]
+input = {ka, V, Cl, kdeg, R0, KD, hind, koff}
+
+PK:
+compartment(cmt=1, amount=A1)
+iv(cmt=1, adm=1)
+
+EQUATION:
+odeType=stiff
+
+;Parameter transformation
+ksyn = kdeg * R0 * V
+kint1 = kdeg
+kint2 = kdeg
+fres = 0
+kon = koff / KD
+
+;Initial conditions 
+t_0=0
+A3_0 = R0*V 
+
+; other transformations
+C2 = A2 / V
+C3 = A3 / V
+C4 = A4 / V
+C5 = A5 / V
+C3res = R0*fres
+
+ddt_A1 = -ka*A1
+ddt_A2 = ka*A1 -Cl*C2 -kon*2*C2*(C3-C3res)*V +koff*A4 
+ddt_A3 = ksyn -kdeg*A3 -kon*2*C2*(C3-C3res)*V +koff*A4 -kon*hind*C4*(C3-C3res)*V +koff*2*A5
+ddt_A4 = kon*2*C2*(C3-C3res)*V -koff*A4 -kint1*A4 -kon*hind*C4*(C3-C3res)*V +koff*2*A5
+ddt_A5 = kon*hind*C4*(C3-C3res)*V -koff*2*A5 -kint2*A5
+
+;Additional outputs
+CD_t = (A2+A4+A5)/V
+CR_t = (A3+A4+2*A5)/V
+RR = (A3/V)/R0
+PRR = RR*100
+
+OUTPUT:
+output = {PRR}
