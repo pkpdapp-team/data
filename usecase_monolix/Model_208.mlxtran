@@ -1,0 +1,96 @@
+<DATAFILE>
+
+[FILEINFO]
+file='TE_Data.txt'
+delimiter = tab
+header = {ID, Time, Time_units, Amt, Amt_units, DV, DV_units, Dose, Dose_units, Dose_cat}
+
+[CONTENT]
+ID = {use=identifier}
+Time = {use=time}
+Amt = {use=amount}
+DV = {use=observation, name=DV, type=continuous}
+Dose_cat = {use=covariate, type=categorical}
+
+<MODEL>
+
+[COVARIATE]
+input = Dose_cat
+
+Dose_cat = {type=categorical, categories={18, 300, 6, 75}}
+
+DEFINITION:
+tDose_cat =
+{
+  transform = Dose_cat, 
+  categories = {
+  G_6 = 6,
+  G_18_300_75 = {18, 300, 75}  }, 
+  reference = G_18_300_75
+}
+
+[INDIVIDUAL]
+input = {Cl_pop, omega_Cl, R0_pop, omega_R0, V_pop, omega_V, ka_pop, kdeg_pop, omega_kdeg, omega_ka, KD_pop, omega_KD, hind_pop, koff_pop, tDose_cat, beta_R0_tDose_cat_G_6}
+
+tDose_cat = {type=categorical, categories={G_6, G_18_300_75}}
+
+DEFINITION:
+Cl = {distribution=logNormal, typical=Cl_pop, sd=omega_Cl}
+R0 = {distribution=logNormal, typical=R0_pop, covariate=tDose_cat, coefficient={beta_R0_tDose_cat_G_6, 0}, sd=omega_R0}
+V = {distribution=logNormal, typical=V_pop, sd=omega_V}
+ka = {distribution=logNormal, typical=ka_pop, sd=omega_ka}
+kdeg = {distribution=logNormal, typical=kdeg_pop, sd=omega_kdeg}
+KD = {distribution=logNormal, typical=KD_pop, sd=omega_KD}
+hind = {distribution=logNormal, typical=hind_pop, no-variability}
+koff = {distribution=logNormal, typical=koff_pop, no-variability}
+
+[LONGITUDINAL]
+input = {b}
+
+file = 'PK_Model.txt'
+
+DEFINITION:
+C = {distribution=normal, prediction=PRR, errorModel=proportional(b)}
+
+<FIT>
+data = DV
+model = C
+
+<PARAMETER>
+Cl_pop = {value=0.306, method=FIXED}
+KD_pop = {value=0.7575652422657053, method=MLE}
+R0_pop = {value=50, method=MLE}
+V_pop = {value=9.92, method=FIXED}
+b = {value=0.145336889937022, method=MLE}
+beta_R0_tDose_cat_G_6 = {value=0, method=MLE}
+hind_pop = {value=1, method=FIXED}
+ka_pop = {value=0.683611327211788, method=MLE}
+kdeg_pop = {value=0.0467, method=FIXED}
+koff_pop = {value=10, method=FIXED}
+omega_Cl = {value=0.3, method=FIXED}
+omega_KD = {value=0.6243713642855293, method=MLE}
+omega_R0 = {value=2, method=MLE}
+omega_V = {value=0.3, method=FIXED}
+omega_ka = {value=0.3729055478931729, method=MLE}
+omega_kdeg = {value=0.4, method=FIXED}
+
+<MONOLIX>
+
+[TASKS]
+populationParameters()
+individualParameters(method = {conditionalMean, conditionalMode })
+fim(method = StochasticApproximation)
+logLikelihood(method = ImportanceSampling)
+plotResult(method = {indfits, parameterdistribution, covariancemodeldiagnosis, covariatemodeldiagnosis, obspred, vpc, residualsscatter, residualsdistribution, randomeffects, saemresults })
+
+[SETTINGS]
+GLOBAL:
+exportpath = 'Model_208'
+
+POPULATION:
+exploratoryautostop = no
+smoothingautostop = no
+smoothingiterations = 2000
+exploratoryiterations = 5000
+simulatedannealingiterations = 5000
+
